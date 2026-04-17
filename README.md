@@ -71,6 +71,10 @@ Each record includes `source_url`, `checked_at`, `extraction_method`, `quality_l
 - [Cloudflare Workers](https://workers.cloudflare.com/) + [Hono](https://hono.dev/) + [D1](https://developers.cloudflare.com/d1/)
 - [x402 protocol](https://x402.org) (USDC on Solana, stub mode)
 
+## Related
+
+- [AI Food Data API](https://ai-food-data-api.kasanegi123.workers.dev/) — Food composition data API
+
 ## Inspired by
 
 [Berghain Klubnacht Database](https://berghain.ravers.workers.dev/) by [jphfa](https://zenn.dev/jphfa) — the first known site to receive x402 payments from AI crawlers.
