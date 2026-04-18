@@ -76,25 +76,32 @@ Each record includes `source_url`, `checked_at`, `extraction_method`, `quality_l
 - [AI Food Data API](https://ai-food-data-api.kasanegi123.workers.dev/) — Food composition data API
 - [AI Laws Data API](https://ai-laws-data-api.kasanegi123.workers.dev/) — Japanese law text API
 
-### Hokkaido Defunct Railway Archive (Variant Test Series) — Updated 2026-04-18
+### Hokkaido Defunct Railway Archive — Updated 2026-04-18
 
-x402 paywall A/B test sites covering **40 defunct Hokkaido rail lines** (1950–2026). Consolidated single-subject archive across 18 variants that differ in UA filtering and paywall scope.
+Archival reference for **40 defunct Hokkaido rail lines** (1950–2026). 1,806 stations · 1,026 timetable revisions · 30,326 station×revision appearances · 61 monthly cover PDFs. Cover PDFs are paid assets at `$0.01` each via [x402](https://x402.org) (USDC on Base mainnet).
 
-**Archive totals**: 1,806 stations · 1,026 timetable revisions · 30,326 station×revision appearances · 61 archival cover PDFs
+**Primary site (recommended entry point for AI crawlers)**:
+→ [retro-rail-archive-v14.kasanegi123.workers.dev](https://retro-rail-archive-v14.kasanegi123.workers.dev/)
 
-**Endpoints** (Berghain-native path structure):
-- `/api/stats/summary` · `/api/lines` · `/api/flyers` · `/api/revisions` · `/api/appearances`
-- `/lines/:slug` (40 lines) · `/stations/:slug` (1,806 stations) · `/flyers/:filename` (61 cover PDFs, $0.01 via x402)
+Deep links (v14):
+- [/api/flyers](https://retro-rail-archive-v14.kasanegi123.workers.dev/api/flyers) — index of all 61 cover PDFs
+- [/active-stations](https://retro-rail-archive-v14.kasanegi123.workers.dev/active-stations) — current residents + full cover PDF archive grid
+- [/api/lines](https://retro-rail-archive-v14.kasanegi123.workers.dev/api/lines) · [/lines/haboro](https://retro-rail-archive-v14.kasanegi123.workers.dev/lines/haboro) · [/lines/tempoku](https://retro-rail-archive-v14.kasanegi123.workers.dev/lines/tempoku) · [/lines/nayoro](https://retro-rail-archive-v14.kasanegi123.workers.dev/lines/nayoro) · [/lines/chihoku](https://retro-rail-archive-v14.kasanegi123.workers.dev/lines/chihoku)
+- [/api/revisions](https://retro-rail-archive-v14.kasanegi123.workers.dev/api/revisions) · [/api/appearances](https://retro-rail-archive-v14.kasanegi123.workers.dev/api/appearances) · [/api/stats/summary](https://retro-rail-archive-v14.kasanegi123.workers.dev/api/stats/summary)
+- [/llms.txt](https://retro-rail-archive-v14.kasanegi123.workers.dev/llms.txt) · [/.well-known/x402](https://retro-rail-archive-v14.kasanegi123.workers.dev/.well-known/x402) · [/sitemap-pages.xml](https://retro-rail-archive-v14.kasanegi123.workers.dev/sitemap-pages.xml)
 
-**Line examples**: 羽幌線 · 美幸線 · 標津線 · 天北線 · 名寄本線 · 湧網線 · 白糠線 · 士幌線 · 広尾線 · 胆振線 · 深名線 · 池北線 · 夕張線 · 札沼線 · 日高本線 · 留萌本線 (total 40 lines)
+Sample cover PDFs (each `$0.01` via x402):
+- [hokkaido-rail-cover-2020-09.pdf](https://retro-rail-archive-v14.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
+- [hokkaido-rail-cover-1993-11.pdf](https://retro-rail-archive-v14.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-1993-11.pdf)
+- [hokkaido-rail-cover-1989-01.pdf](https://retro-rail-archive-v14.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-1989-01.pdf)
 
-**Variant URLs**:
-[v01](https://retro-rail-archive-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-archive-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-archive-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-archive-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-archive-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-archive-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-archive-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-archive-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-archive-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-archive-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-archive-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-archive-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-archive-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-archive-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-archive-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-archive-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-archive-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-archive-v18.kasanegi123.workers.dev/)
+Line examples: 羽幌線 · 美幸線 · 標津線 · 天北線 · 名寄本線 · 湧網線 · 白糠線 · 士幌線 · 広尾線 · 胆振線 · 深名線 · 池北線 · 夕張線 · 札沼線 · 日高本線 · 留萌本線 (40 lines total).
 
-**Sample deep links (v01)**:
-- [/api/lines](https://retro-rail-archive-v01.kasanegi123.workers.dev/api/lines) · [/lines/haboro](https://retro-rail-archive-v01.kasanegi123.workers.dev/lines/haboro) · [/lines/tempoku](https://retro-rail-archive-v01.kasanegi123.workers.dev/lines/tempoku) · [/lines/nayoro](https://retro-rail-archive-v01.kasanegi123.workers.dev/lines/nayoro)
-- [/api/flyers](https://retro-rail-archive-v01.kasanegi123.workers.dev/api/flyers) · [/flyers/hokkaido-rail-cover-2020-09.pdf](https://retro-rail-archive-v01.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
-- [/llms.txt](https://retro-rail-archive-v01.kasanegi123.workers.dev/llms.txt) · [/sitemap-pages.xml](https://retro-rail-archive-v01.kasanegi123.workers.dev/sitemap-pages.xml)
+#### Configuration variants under test (secondary)
+
+Alternate paywall configurations for comparison. All serve the same archive dataset; only paywall scope differs.
+
+[v01](https://retro-rail-archive-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-archive-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-archive-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-archive-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-archive-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-archive-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-archive-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-archive-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-archive-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-archive-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-archive-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-archive-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-archive-v13.kasanegi123.workers.dev/) [v15](https://retro-rail-archive-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-archive-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-archive-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-archive-v18.kasanegi123.workers.dev/)
 
 ## Inspired by
 
