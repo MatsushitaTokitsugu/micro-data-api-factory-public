@@ -74,6 +74,20 @@ Each record includes `source_url`, `checked_at`, `extraction_method`, `quality_l
 ## Related
 
 - [AI Food Data API](https://ai-food-data-api.kasanegi123.workers.dev/) — Food composition data API
+- [AI Laws Data API](https://ai-laws-data-api.kasanegi123.workers.dev/) — Japanese law text API
+
+### Defunct Japanese Railway Archive (Variant Test Series)
+
+x402 paywall configuration A/B test sites. Each variant differs in UA filtering and paywall scope; binary timetable PDFs at `$0.01` via x402.
+
+**JR Haboro Line (1927–1987)** — 27 stations, 141.1 km
+[v01](https://retro-rail-archive-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-archive-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-archive-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-archive-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-archive-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-archive-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-archive-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-archive-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-archive-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-archive-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-archive-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-archive-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-archive-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-archive-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-archive-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-archive-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-archive-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-archive-v18.kasanegi123.workers.dev/)
+
+**JR Bihoro Line (1924–1985)** — 6 stations, 21.2 km
+[v01](https://retro-rail-bihoro-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-bihoro-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-bihoro-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-bihoro-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-bihoro-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-bihoro-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-bihoro-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-bihoro-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-bihoro-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-bihoro-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-bihoro-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-bihoro-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-bihoro-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-bihoro-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-bihoro-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-bihoro-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-bihoro-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-bihoro-v18.kasanegi123.workers.dev/)
+
+**JR Shibetsu Line (1933–1989)** — 13 stations, 116.9 km
+[v01](https://retro-rail-shibetsu-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-shibetsu-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-shibetsu-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-shibetsu-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-shibetsu-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-shibetsu-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-shibetsu-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-shibetsu-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-shibetsu-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-shibetsu-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-shibetsu-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-shibetsu-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-shibetsu-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-shibetsu-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-shibetsu-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-shibetsu-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-shibetsu-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-shibetsu-v18.kasanegi123.workers.dev/)
 
 ## Inspired by
 
