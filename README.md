@@ -76,18 +76,25 @@ Each record includes `source_url`, `checked_at`, `extraction_method`, `quality_l
 - [AI Food Data API](https://ai-food-data-api.kasanegi123.workers.dev/) — Food composition data API
 - [AI Laws Data API](https://ai-laws-data-api.kasanegi123.workers.dev/) — Japanese law text API
 
-### Defunct Japanese Railway Archive (Variant Test Series)
+### Hokkaido Defunct Railway Archive (Variant Test Series) — Updated 2026-04-18
 
-x402 paywall configuration A/B test sites. Each variant differs in UA filtering and paywall scope; binary timetable PDFs at `$0.01` via x402.
+x402 paywall A/B test sites covering **40 defunct Hokkaido rail lines** (1950–2026). Consolidated single-subject archive across 18 variants that differ in UA filtering and paywall scope.
 
-**JR Haboro Line (1927–1987)** — 27 stations, 141.1 km
+**Archive totals**: 1,806 stations · 1,026 timetable revisions · 30,326 station×revision appearances · 61 archival cover PDFs
+
+**Endpoints** (Berghain-native path structure):
+- `/api/stats/summary` · `/api/lines` · `/api/flyers` · `/api/revisions` · `/api/appearances`
+- `/lines/:slug` (40 lines) · `/stations/:slug` (1,806 stations) · `/flyers/:filename` (61 cover PDFs, $0.01 via x402)
+
+**Line examples**: 羽幌線 · 美幸線 · 標津線 · 天北線 · 名寄本線 · 湧網線 · 白糠線 · 士幌線 · 広尾線 · 胆振線 · 深名線 · 池北線 · 夕張線 · 札沼線 · 日高本線 · 留萌本線 (total 40 lines)
+
+**Variant URLs**:
 [v01](https://retro-rail-archive-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-archive-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-archive-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-archive-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-archive-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-archive-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-archive-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-archive-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-archive-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-archive-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-archive-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-archive-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-archive-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-archive-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-archive-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-archive-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-archive-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-archive-v18.kasanegi123.workers.dev/)
 
-**JR Bihoro Line (1924–1985)** — 6 stations, 21.2 km
-[v01](https://retro-rail-bihoro-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-bihoro-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-bihoro-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-bihoro-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-bihoro-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-bihoro-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-bihoro-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-bihoro-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-bihoro-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-bihoro-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-bihoro-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-bihoro-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-bihoro-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-bihoro-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-bihoro-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-bihoro-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-bihoro-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-bihoro-v18.kasanegi123.workers.dev/)
-
-**JR Shibetsu Line (1933–1989)** — 13 stations, 116.9 km
-[v01](https://retro-rail-shibetsu-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-shibetsu-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-shibetsu-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-shibetsu-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-shibetsu-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-shibetsu-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-shibetsu-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-shibetsu-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-shibetsu-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-shibetsu-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-shibetsu-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-shibetsu-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-shibetsu-v13.kasanegi123.workers.dev/) [v14](https://retro-rail-shibetsu-v14.kasanegi123.workers.dev/) [v15](https://retro-rail-shibetsu-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-shibetsu-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-shibetsu-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-shibetsu-v18.kasanegi123.workers.dev/)
+**Sample deep links (v01)**:
+- [/api/lines](https://retro-rail-archive-v01.kasanegi123.workers.dev/api/lines) · [/lines/haboro](https://retro-rail-archive-v01.kasanegi123.workers.dev/lines/haboro) · [/lines/tempoku](https://retro-rail-archive-v01.kasanegi123.workers.dev/lines/tempoku) · [/lines/nayoro](https://retro-rail-archive-v01.kasanegi123.workers.dev/lines/nayoro)
+- [/api/flyers](https://retro-rail-archive-v01.kasanegi123.workers.dev/api/flyers) · [/flyers/hokkaido-rail-cover-2020-09.pdf](https://retro-rail-archive-v01.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
+- [/llms.txt](https://retro-rail-archive-v01.kasanegi123.workers.dev/llms.txt) · [/sitemap-pages.xml](https://retro-rail-archive-v01.kasanegi123.workers.dev/sitemap-pages.xml)
 
 ## Inspired by
 
