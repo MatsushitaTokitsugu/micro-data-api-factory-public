@@ -110,7 +110,22 @@ The same archive is served via four cover-PDF rendering formats, one per sibling
 
 Alternate paywall configurations for comparison. All serve the same archive dataset; only paywall scope differs.
 
-[v01](https://retro-rail-archive-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-archive-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-archive-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-archive-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-archive-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-archive-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-archive-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-archive-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-archive-v09.kasanegi123.workers.dev/) [v10](https://retro-rail-archive-v10.kasanegi123.workers.dev/) [v11](https://retro-rail-archive-v11.kasanegi123.workers.dev/) [v12](https://retro-rail-archive-v12.kasanegi123.workers.dev/) [v13](https://retro-rail-archive-v13.kasanegi123.workers.dev/) [v15](https://retro-rail-archive-v15.kasanegi123.workers.dev/) [v16](https://retro-rail-archive-v16.kasanegi123.workers.dev/) [v17](https://retro-rail-archive-v17.kasanegi123.workers.dev/) [v18](https://retro-rail-archive-v18.kasanegi123.workers.dev/)
+[v01](https://retro-rail-archive-v01.kasanegi123.workers.dev/) [v02](https://retro-rail-archive-v02.kasanegi123.workers.dev/) [v03](https://retro-rail-archive-v03.kasanegi123.workers.dev/) [v04](https://retro-rail-archive-v04.kasanegi123.workers.dev/) [v05](https://retro-rail-archive-v05.kasanegi123.workers.dev/) [v06](https://retro-rail-archive-v06.kasanegi123.workers.dev/) [v07](https://retro-rail-archive-v07.kasanegi123.workers.dev/) [v08](https://retro-rail-archive-v08.kasanegi123.workers.dev/) [v09](https://retro-rail-archive-v09.kasanegi123.workers.dev/)
+
+### Extended archive cohort (N1–N8) — consecutive recent monthly coverage
+
+Sibling sites covering the same lines with a **consecutive 61-month recent coverage window** (ending 2025-12 for the Hokkaido-region archive, 2023-12 for Honshu, 2019-12 for European, 2014-12 for US). Filename pattern is `{region}-flyer-YYYY-MM.pdf` for brevity. All serve free HTML and JSON; paid cover PDFs at `$0.01` via x402 (the N8 site tests `$0.001`).
+
+- **N1** Hokkaido (Extended, grid PDF) — [v10](https://retro-rail-archive-v10.kasanegi123.workers.dev/) · [sample](https://retro-rail-archive-v10.kasanegi123.workers.dev/flyers/hokkaido-next-flyer-2025-12.pdf)
+- **N2** Hokkaido (Extended, route-map PDF) — [v11](https://retro-rail-archive-v11.kasanegi123.workers.dev/) · [sample](https://retro-rail-archive-v11.kasanegi123.workers.dev/flyers/hokkaido-next-flyer-2025-12.pdf)
+- **N3** Honshu (Extended) — [v12](https://retro-rail-archive-v12.kasanegi123.workers.dev/) · [sample](https://retro-rail-archive-v12.kasanegi123.workers.dev/flyers/honshu-next-flyer-2023-12.pdf)
+- **N4** European (Extended) — [v13](https://retro-rail-archive-v13.kasanegi123.workers.dev/) · [sample](https://retro-rail-archive-v13.kasanegi123.workers.dev/flyers/european-next-flyer-2019-12.pdf)
+- **N5** US (Extended) — [v15](https://retro-rail-archive-v15.kasanegi123.workers.dev/) · [sample](https://retro-rail-archive-v15.kasanegi123.workers.dev/flyers/us-next-flyer-2014-12.pdf)
+- **N6** Hokkaido (Extended, stats-gate paywall) — [v16](https://retro-rail-archive-v16.kasanegi123.workers.dev/)
+- **N7** Hokkaido (Extended, minimal paywall) — [v17](https://retro-rail-archive-v17.kasanegi123.workers.dev/)
+- **N8** Hokkaido (Extended, `$0.001` price test) — [v18](https://retro-rail-archive-v18.kasanegi123.workers.dev/) · [manifest](https://retro-rail-archive-v18.kasanegi123.workers.dev/.well-known/x402)
+
+Each extended site includes an enhanced homepage (About / AI & LLM Friendly / API Endpoints / Developers / Usage sections), a pure-English `llms.txt`, and `/api/flyers` listing 61 consecutive monthly covers.
 
 ## Inspired by
 
