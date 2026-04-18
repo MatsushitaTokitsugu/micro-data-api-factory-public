@@ -97,6 +97,15 @@ Sample cover PDFs (each `$0.01` via x402):
 
 Line examples: 羽幌線 · 美幸線 · 標津線 · 天北線 · 名寄本線 · 湧網線 · 白糠線 · 士幌線 · 広尾線 · 胆振線 · 深名線 · 池北線 · 夕張線 · 札沼線 · 日高本線 · 留萌本線 (40 lines total).
 
+#### PDF asset format variants (A1–A4)
+
+The same archive is served via four cover-PDF rendering formats, one per sibling site. All share the v14 paywall configuration (UA-filtered, `/active-stations` + `/api/stats*` + `/api/stations/ranking*` + `/flyers/*.pdf` paid for AI crawlers).
+
+- **A1 grid** — station × train-number timetable grid (3 pages) — [v14 sample](https://retro-rail-archive-v14.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
+- **A2 route-map** — vertical route map with station dots and km labels (3 pages) — [v01 sample](https://retro-rail-archive-v01.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
+- **A3 poster** — monthly poster/flyer with heavy title blocks and revision stamp (2 pages) — [v02 sample](https://retro-rail-archive-v02.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
+- **A4 bulletin** — archival bulletin with change summary + history timeline + station digest (4 pages) — [v03 sample](https://retro-rail-archive-v03.kasanegi123.workers.dev/flyers/hokkaido-rail-cover-2020-09.pdf)
+
 #### Configuration variants under test (secondary)
 
 Alternate paywall configurations for comparison. All serve the same archive dataset; only paywall scope differs.
