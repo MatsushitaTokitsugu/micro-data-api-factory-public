@@ -38,6 +38,22 @@ Free for humans. AI crawlers get free basic access; premium endpoints (sources, 
 
 Currently in **stub mode** — 402 responses are returned but real payments are not yet processed.
 
+## Weather API (pay-per-call) — Updated 2026-04-20
+
+Global weather data for AI agents. Pass a city name or coordinates, get structured JSON. No API keys, no geocoding setup. Backed by [Open-Meteo](https://open-meteo.com) (CC BY 4.0).
+
+| Endpoint | Price | Description |
+|---|---|---|
+| [GET /weather/current?city=Tokyo](https://micro-data-api-factory.kasanegi123.workers.dev/weather/current?city=Tokyo) | $0.001 USDC | Current conditions — temperature, feels-like, humidity, wind, precipitation, condition |
+| [GET /weather/forecast?city=Tokyo&days=3](https://micro-data-api-factory.kasanegi123.workers.dev/weather/forecast?city=Tokyo&days=3) | $0.001 USDC | Daily forecast (1–7 days) — high/low, precipitation probability, wind max |
+
+- Network: Base mainnet (`eip155:8453`)
+- Asset: USDC (`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`)
+- Facilitator: Coinbase CDP
+- Real x402 settlement — no stub mode for this endpoint; payments land on-chain
+
+Attribution: Weather data by Open-Meteo.com (CC BY 4.0).
+
 ## AI Discovery
 
 | File | URL |
